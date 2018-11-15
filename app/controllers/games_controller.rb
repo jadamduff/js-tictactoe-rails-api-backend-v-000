@@ -1,5 +1,9 @@
 class GamesController < ApplicationController
 
+  def index
+    
+  end
+
   def create
 
   end
@@ -10,10 +14,6 @@ class GamesController < ApplicationController
 
   def update
 
-  end
-
-  def index
-    
   end
 
 end
