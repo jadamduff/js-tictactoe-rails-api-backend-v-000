@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
-  resource :game, only: [:show, :create, :update, :index]
+  resource :game, only: [:show, :create, :update]
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
